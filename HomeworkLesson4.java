@@ -3,6 +3,8 @@ package com.gmail.xmrayq.main;
 public class HomeworkLesson4 {
 
     public static void main(String[] args) {
+        years();
+        times();
 
         int[] massive1 = new int[4];
         int[] massive2 = new int[4];
@@ -43,8 +45,9 @@ public class HomeworkLesson4 {
         System.out.print(massive3[6]);
         System.out.print(" ");
         System.out.println(massive3[7]);
+    }
 
-
+    public static void years() {
         int year = 2024;
 
         if (((year % 4) == 0) || ((year % 400 == 0) && (year % 100 != 0))) {
@@ -52,7 +55,9 @@ public class HomeworkLesson4 {
         } else {
             System.out.println("Number days in a year = 365");
         }
+    }
 
+    public static void times() {
         int time = 4;
 
         switch (time) {
@@ -70,9 +75,9 @@ public class HomeworkLesson4 {
                 break;
             default:
                 System.out.println("There is no such time in the year");
-
         }
-
     }
 
 }
+
+
