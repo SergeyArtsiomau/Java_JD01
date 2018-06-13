@@ -47,14 +47,16 @@ public class HomeworkLesson4 {
         System.out.println(massive3[7]);
     }
 
-    public static void years() {
+    public static int years() {
         int year = 2024;
+        int days;
 
         if (((year % 4) == 0) || ((year % 400 == 0) && (year % 100 != 0))) {
-            System.out.println("Number days in a year = 366");
+            days = 366;
         } else {
-            System.out.println("Number days in a year = 365");
+            days = 365;
         }
+        return days;
     }
 
     public static void times() {

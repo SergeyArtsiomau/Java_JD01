@@ -17,7 +17,7 @@ public class AmountNumber {
         while (n != 0) {
             element = n % 10;
 
-            n = n / 10;
+            n  /= 10;
 
             sum += element;
             i++;
@@ -27,6 +27,5 @@ public class AmountNumber {
         System.out.println("Amount = " + i + "  " + "Summa = " + sum);
     }
 }
-
 
 
