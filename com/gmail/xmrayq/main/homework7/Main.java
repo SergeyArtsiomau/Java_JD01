@@ -10,8 +10,8 @@ public class Main {
         LinesWithWordCatOrDogService linesWithWordCatOrDogService = new LinesWithWordCatOrDogService();
         linesWithWordCatOrDogService.checkOfLines();
 
-        NewString newString = new NewString();
-        newString.spaceSuppression();
+        DeleteSpaceString deleteSpaceString = new DeleteSpaceString();
+        deleteSpaceString.spaceSuppression();
 
 
     }
