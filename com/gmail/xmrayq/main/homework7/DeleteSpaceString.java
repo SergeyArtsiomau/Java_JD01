@@ -13,7 +13,7 @@ public class DeleteSpaceString {
         int sign1 = 0;
         int sign2 = string.length();
         for (int i = 0; i < string.length(); i++) {
-            if (string.charAt(i) == '!') {
+            if (string.charAt(i) == '?') {
                 count++;
                 if (count == 2) sign1 = i;
                 if (count == 3) sign2 = i;
