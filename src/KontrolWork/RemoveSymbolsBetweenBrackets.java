@@ -9,8 +9,8 @@ public class RemoveSymbolsBetweenBrackets {
         System.out.println(" Enter text ");
         String someString = scanner.nextLine();
 
-        int bracketOne = someString.indexOf("(");
-        int bracketTwo = someString.indexOf(")");
+        private int bracketOne = someString.indexOf("(");
+        private int bracketTwo = someString.indexOf(")");
 
         if (bracketOne == -1 || bracketTwo == -1) {
             System.out.println(" Not ')' or '(' ");
