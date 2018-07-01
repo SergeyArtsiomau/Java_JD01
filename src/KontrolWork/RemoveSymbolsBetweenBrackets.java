@@ -16,6 +16,7 @@ public class RemoveSymbolsBetweenBrackets {
             System.out.println(" Not ')' or '(' ");
         } else {
             String newString = someString.replaceAll("\\(.*\\)", "\\(\\)");
+            //".*" - последовательность для обозначения любого количества любых символов между двумя частями регулярного выражения
             System.out.println("New String " + newString);
         }
     }
